@@ -2,6 +2,7 @@
 
 let str="poornima";
 let str1= str.split("");
+console.log(str1);
 let str2={};
 
 for(char of str1){
