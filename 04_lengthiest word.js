@@ -24,3 +24,21 @@ console.log(wordslength);
  
  let seclargest=words.filter(item => item.length===seclar);
  console.log(seclargest);
+
+
+ //lengthest word
+
+let sen2 = "India is my Country";
+
+let sen1 = sen2.split(" ");
+console.log(sen1);
+
+let longestWord = "";
+
+for (let i = 0; i < sen1.length; i++) {
+  if (sen1[i].length > longestWord.length) {
+    longestWord = sen1[i];
+  }
+}
+
+console.log(longestWord);

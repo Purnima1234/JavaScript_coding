@@ -10,3 +10,6 @@ for(let i=0; i<sen2.length; i++){
     let dup = word.split('').filter((item,index)=> word.indexOf(item)!==index);
     console.log(word+" "+dup);
 }
+
+
+
